@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar color="apphead">
+    <ion-title>
+      Jitz Mobile
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3 align="center">welcome to</h3>
+  <p align="center">
+    <img src="assets/images/transparent_jitz.png" height="100px"/>
+  </p>
+
+  <ion-item>
+    <ion-label floating color="apphead">Username</ion-label>
+    <ion-input type="text" color="apphead" #username></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating color="apphead">Password</ion-label>
+    <ion-input type="password" color="apphead" #password></ion-input>
+  </ion-item>
+  <br>
+
+  <button ion-button full color="apphead" (click)="login(username.value,password.value); username.value=''; password.value='';">Login</button>
+
+
+
+
+</ion-content>
