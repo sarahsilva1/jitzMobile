@@ -25,10 +25,10 @@ export class AdmindashPage {
 
     this.pages = [
       { title: 'Category View', component: AdminPage, icon:'albums' },
-      { title: 'Management', component: AdminviewmanagementPage, icon:'menu' },
-      { title: 'Gallery', component: AdminviewhodsPage, icon:'camera' },
-      { title: 'Staffs', component: AdminviewstaffsPage, icon:'menu' },
-      { title: 'Students', component: AdminviewstudentsPage, icon:'menu' },
+      { title: 'Locations', component: AdminviewmanagementPage, icon:'globe' },
+      { title: 'Gallery', component: AdminviewhodsPage, icon:'images' },
+      { title: 'Social Media', component: AdminviewstaffsPage, icon:'happy' },
+      { title: 'House Coffee', component: AdminviewstudentsPage, icon:'cafe' },
       { title: 'Parents', component: AdminviewparentsPage, icon:'menu' }
     ];
   }

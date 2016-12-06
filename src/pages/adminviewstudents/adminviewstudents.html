@@ -10,12 +10,46 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Students</ion-title>
+    <ion-title>Jitz House Coffee</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+  <ion-content padding>
+      <ion-row>
+        <ion-col width-100><img src="../../assets/images/houseCoffee.jpg"></ion-col>
+        <ion-col width-100><h1>House Coffee</h1></ion-col>
+      </ion-row>
+
+  <ion-list>
+    <ion-col width-100><h2>Build Your Drink</h2></ion-col>
+
+    <ion-item>
+      <ion-label>Milk</ion-label>
+      <ion-toggle color="secondary" [(ngModel)]="Milk"></ion-toggle>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Almond Milk</ion-label>
+      <ion-toggle color="secondary" [(ngModel)]="AlmondMilk"></ion-toggle>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Sugar</ion-label>
+      <ion-toggle color="secondary" [(ngModel)]="Sugar"></ion-toggle>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Splenda</ion-label>
+      <ion-toggle color="secondary"  [(ngModel)]="Splenda"></ion-toggle>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Whipped Topping</ion-label>
+      <ion-toggle color="secondary" [(ngModel)]="WhippedTopping"></ion-toggle>
+    </ion-item>
+  </ion-list>
+  <ion-col width-100><button ion-button round>Add to Order</button></ion-col>
 
 </ion-content>
